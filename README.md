@@ -57,5 +57,12 @@ This is useful for:
 
 --// OVERSEER_CHECK can be ran with or after overseer has loaded and sets the clipboard to the new value that you use to replace the old one.
 OVERSEER_CHECK() 
+---
+### Implementing overseer
+---
 
+OVERSEER_DEV_DATE = ""
+loadstring(request({Url = "https://raw.githubusercontent.com/B-Xs/Overseer/refs/heads/main/Loader", Method = "GET"}).Body)()
+
+---
                                             
